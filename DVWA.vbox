@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{26fb75ff-bae3-42e4-be4d-6c821aab6b64}" name="DVWA" OSType="Linux_64" snapshotFolder="Snapshots" lastStateChange="2025-04-25T03:55:32Z">
+  <Machine uuid="{26fb75ff-bae3-42e4-be4d-6c821aab6b64}" name="DVWA" OSType="Linux_64" snapshotFolder="Snapshots" lastStateChange="2025-04-25T04:41:35Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{41c4dc51-31d7-4060-b15b-a0dd028dd6e6}" location="DVWA.vdi" format="VDI" type="Normal"/>
@@ -17,7 +17,7 @@
     </MediaRegistry>
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="1920,23,1920,1009,max"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="0,23,1536,889,max"/>
     </ExtraData>
     <Hardware>
       <Memory RAMSize="2048"/>
@@ -48,7 +48,7 @@
       <Clipboard mode="Bidirectional"/>
       <DragAndDrop mode="Bidirectional"/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1744950754326085300" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1745556065495379200" flags="RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
